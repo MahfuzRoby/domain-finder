@@ -24,7 +24,7 @@ No paid APIs, no API keys, no third-party packages — just Python's standard li
 Run with defaults (finds 10 pronounceable 4-5 letter domains):
 
 ```bash
-python domain_finder.py
+python dmfind.py
 ```
 
 ### Options
@@ -43,17 +43,17 @@ python domain_finder.py
 
 Pure random 4-letter combos:
 ```bash
-python domain_finder.py --mode random-letters --length 4
+python dmfind.py --mode random-letters --length 4
 ```
 
 Find 20 word-based domains, save to a custom file:
 ```bash
-python domain_finder.py --mode words --count 20 --output my_domains.txt
+python dmfind.py --mode words --count 20 --output my_domains.txt
 ```
 
 Slower, more polite checking (avoids rate limits):
 ```bash
-python domain_finder.py --delay 3
+python dmfind.py --delay 3
 ```
 
 ## How it works
